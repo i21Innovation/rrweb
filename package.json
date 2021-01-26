@@ -1,5 +1,5 @@
 {
-  "name": "rrweb",
+  "name": "@i21innovation/rrweb",
   "version": "0.9.14-0",
   "description": "record and replay the web",
   "scripts": {
@@ -12,7 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rrweb-io/rrweb.git"
+    "url": "git+ssh://git@github.com/i21innovation/rrweb.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "rrweb"
